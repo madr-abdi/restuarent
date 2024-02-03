@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" contet="with-device-width, initial-scale=1.0">
+    <title>Cunto Wacane </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+ </head>
+ 
+ <body>
+     <section id="home" class="header">
+         <nav>
+             <a href="index.html"><img class="logo" src="logo-no-background.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="#home">HOME</a></li>
+                     <li><a href="#booking">BOOKING</a></li>
+                     <li><a href="#about">ABOUT</a></li>
+                     <li><a href="#contact">CONTACTS</a></li>
+                 </ul>
+             </div>
+             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+         
+       <div class="text-box">
+           <h1>HIGH CLASS RESTURANT</h1>
+           <p>TRY WITH US!, Our best traditional Somali foods and <br>
+            other famous foods cooked with passion and love. <br>
+            Well trained and have a talent cheifs with a experience of cooking and<br>
+            seasoning the perfect way. </p>
+           <a href="" class="hero-btn">Get a table</a>
+       </div>     
+     </section>
+
+     <!--------------------------- BOOKING ------------------------>
+    
+     <section id="booking">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="egg-bhurjee-FT-RECIPE0521-f9573d8c81bb4c9597a9621c0ac064ae.jpg" alt="Spiced Indian Scrambled Eggs ">
+                <img id="slide-2" src="255038_Sheet-Pan-Chicken-Fajitas_ddmfs_4x3_1296-1c51ed33280e4d3888a4f092dd170aba.jpg" alt="Sheet Pan Chicken Fajitas">
+                <img id="slide-3" src="ramenara-ramen-carbonara-172843-2.webp" alt="Ramenara (ramen carbonara)">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+        <div class="book-now">
+            <h1>Reservations open every day at <br> 10am for the next three weeks</h1>
+            <a href="" class="booking-btn">BOOK NOW</a>
+        </div> 
+     </section>
+
+     <!--------------------------- about ------------------------>
+
+     <section id="about">
+        <div class="about-us">
+            <div class="writing-wrapper">
+                <h1>ABOUT US</h1>
+                <p>At Cunto Wacane, we believe that dining is more than just 
+                    eating; it's an experience that should engage all your senses. 
+                    Nestled in the heart of hargeisa, we are a culinary haven where 
+                    passion meets innovation, and every meal tells a story. </p>
+                 <p>Founded in 2017, Cunto Wacane was born out of a shared love 
+                    for exceptional food and warm hospitality. The founders, Madr abdi 
+                    envisioned a place where people could come together to savor 
+                    delicious dishes crafted with care and creativity.
+                 </p>
+                 <p>We invite you to join us at Cunto Wacane and indulge in a 
+                    culinary adventure that transcends the ordinary. From the first 
+                    bite to the last sip, we aim to make every moment memorable. Thank 
+                    you for choosing us, and we look forward to serving you soon.  
+                 </p>
+            </div>
+        </div>
+     </section>
+     
+     <!--------------------------- contacts ------------------------>
+     
+     <section id="contact">
+        <div class="contacts">
+            <h1>Contacts</h1>
+            <p>st, xero awr st, Marodi-jex, Hargeisa, Somaliland</p>
+            <p>+252634446677</p>
+            <p>reserve@cuntowacane.com</p>
+            <p>** This is just a fake website. All the links and contact details given are not real.</p> 
+        </div>
+        <div class="footer">
+            <div class="upper-footer">
+                
+                <form action="#" method="post" class="form">
+                    <h4>Register to get news about us.</h4>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <input type="submit" id="submit" value="submit">
+                </form>
+                <div class="reservations">
+                    <h1>Reservations:</h1>
+                    <p>Monday to Saturday</p>
+                    <p>12:45 - 13:45 hours / 19:00 - 20:30 hours</p>
+                </div>
+            </div>
+            <div class="lower-footer">
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>   
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Sponsors</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Copyright Policy</a></li>
+                    </ul>
+                    <p class="copyright">Copyright ©2024, Cunto Wacane</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     
+     <!------Javascript for toggle Menu------->
+     <script src="scripts.js"></script> 
+
+ </body>
+</html>
